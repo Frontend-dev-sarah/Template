@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "rntemplate",
+    "slug": "rntemplate",
+    "scheme": "rntemplate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "supportsTablet": false,
+      "bundleIdentifier": "fr.rntemplate.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "useNextNotificationsApi": true,
+      "package": "fr.rntemplate.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "iosDisplayInForeground": true
+    }
+  }
+}
